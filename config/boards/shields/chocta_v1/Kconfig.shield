@@ -4,5 +4,5 @@ config SHIELD_CHOCTA_V1_LEFT
 config SHIELD_CHOCTA_V1_RIGHT
 	def_bool $(shields_list_contains,chocta_v1_right)
 	
-config SHIELD_NICE_NANO_V2
-	def_bool $(shields_list_contains,nice_nano_v2)
+config SHIELD_CUSTOM_SPI
+	def_bool $(shields_list_contains,custom_spi)

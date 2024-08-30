@@ -15,5 +15,5 @@ config ZMK_SPLIT
 	
 endif
 
-if SHIELD_NICE_NANO_V2
+if SHIELD_CUSTOM_SPI
 endif
