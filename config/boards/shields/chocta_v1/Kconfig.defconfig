@@ -14,3 +14,6 @@ config ZMK_SPLIT
 	default y
 	
 endif
+
+if SHIELD_NICE_NANO_V2
+endif
