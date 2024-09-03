@@ -53,16 +53,16 @@
                         bindings = <
 // ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐                                             ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐ 2
 // │  ^      │  <      │  (      │  {      │  [      │  !      │                                             │  +      │  7      │  8      │  9      │  *      │  &      │
-    &kp CARET &kp N_LT  &kp N_LPR &kp N_LCB &kp N_LSB &kp N_EXC                                               &kp N_PLS &kp N7    &kp N8    &kp N9    &kp N_AST &kp N_AMP
+    &kp N_CAR &kp N_LT  &kp N_LPR &kp N_LCB &kp N_LSB &kp N_EXC                                               &kp N_PLS &kp N7    &kp N8    &kp N9    &kp N_AST &kp N_AMP
 // ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤                                             ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
 // │  @      │  >      │  )      │  }      │  ]      │  ?      │                                             │  -      │  4      │  5      │  6      │  /      │  |      │
-    &kp AT    &kp N_GT  &kp N_RPR &kp N_RCB &kp N_RSB &kp N_QUE                                               &kp N_MNS &kp N4    &kp N5    &kp N6    &kp N_FSL &kp N_PIP
+    &kp N_AT  &kp N_GT  &kp N_RPR &kp N_RCB &kp N_RSB &kp N_QUE                                               &kp N_MNS &kp N4    &kp N5    &kp N6    &kp N_FSL &kp N_PIP
 // └─────────┼─────────┼─────────┼─────────┼─────────┼─────────┘                                             └─────────┼─────────┼─────────┼─────────┼─────────┼─────────┘
 //           │  ~      │  $      │  #      │BACKSLASH│                                                                 │  1      │  2      │  3      │  %      │
-              &kp TILDE &kp N_DLR &kp N_HAS &kp N_BSL                                                                   &kp N1    &kp N2    &kp N3    &kp N_PRC
+              &kp N_TLD &kp N_DLR &kp N_HAS &kp N_BSL                                                                   &kp N1    &kp N2    &kp N3    &kp N_PRC
 //           └─────────┴─────────┴─────────┴─────────┘┌─────────┬─────────┬─────────┐   ┌─────────┬─────────┬─────────┐└─────────┴─────────┴─────────┴─────────┘
 //                                                    │  "      │         │         │   │         │  =      │  0      │
-                                                       &kp N_DQT &none     &trans        &none     &kp EQUAL &kp N0
+                                                       &kp N_DQT &none     &trans        &none     &kp N_EQL &kp N0
 //                                                    └─────────┴─────────┴─────────┘   └─────────┴─────────┴─────────┘
                         >;
                 };
