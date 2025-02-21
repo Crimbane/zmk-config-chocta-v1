@@ -41,7 +41,7 @@
     &kp INS   &kp F5    &kp F6    &kp F7    &kp F8    &kp DEL                                                 &kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT &kp LGUI  &trans
 // └─────────┼─────────┼─────────┼─────────┼─────────┼─────────┘                                             └─────────┼─────────┼─────────┼─────────┼─────────┼─────────┘
 //           │  F9     │  F10    │  F11    │  F12    │                                                                 │         │         │         │PRINTSCRN│
-              &kp F9    &kp F10   &kp F11   &kp F12                                                                     &none     &none     &none     &kp PSCRN
+              &kp F9    &kp F10   &kp F11   &kp F12                                                                    &bt BT_PRV &bt BT_NXT &bt BT_CLR &kp PSCRN
 //           └─────────┴─────────┴─────────┴─────────┘┌─────────┬─────────┬─────────┐   ┌─────────┬─────────┬─────────┐└─────────┴─────────┴─────────┴─────────┘
 //                                                    │  SHIFT  │         │         │   │         │  GAME   │  CTRL   │
                                                        &kp LSHFT &trans    &trans        &trans    &tog 3    &kp LCTRL
